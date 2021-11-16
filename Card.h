@@ -23,7 +23,6 @@ class Card {
     }
     // function supposed to call to bank API to check whether the pin is correct
     bool isPinCorrect(string enteredPin) {
-      cout << "PIN : " << pin << " : " << enteredPin << endl;
       if (pin == enteredPin) {
         isAuthenticated = true;
         return true;
